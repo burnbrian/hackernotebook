@@ -13,9 +13,12 @@ theme:
     - navigation.path
     - navigation.prune
     - navigation.footer
+    - navigation.top
     - search.suggest
     - search.highlight
     - announce.dismiss
+    - toc.follow
+    - toc.integrate
   plugins:
     - search
     - tags
