@@ -21,13 +21,13 @@ theme:
     - tags
     - offline
   extra:
-  social:
-    - icon: fontawesome/brands/mastodon 
-      link: https://fosstodon.org/@test
-    - icon: fontawesome/brands/github
-      link: https://fosstodon.org/@test
-    - icon: fontawesome/brands/linkedin
-      link: https://fosstodon.org/@test
-    - icon: fontawesome/brands/discord
-      link: https://fosstodon.org/@test
-    copyright: Copyright &copy; 2023 Hackernotebook.com
+    social:
+      - icon: fontawesome/brands/mastodon 
+        link: https://fosstodon.org/@test
+      - icon: fontawesome/brands/github
+        link: https://fosstodon.org/@test
+      - icon: fontawesome/brands/linkedin
+        link: https://fosstodon.org/@test
+      - icon: fontawesome/brands/discord
+        link: https://fosstodon.org/@test
+  copyright: Copyright &copy; 2023 Hackernotebook.com
