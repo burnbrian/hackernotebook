@@ -3,6 +3,7 @@ site_url: https://hackernotebook.com
 theme:
   name: material
   features:
+    - header.autohide
     - navigation.instant
     - navigation.instant.progress
     - navigation.instant.prefetch
@@ -13,6 +14,7 @@ theme:
     - navigation.prune
     - search.suggest
     - search.highlight
+    - announce.dismiss
   plugins:
     - search
     - tags
