@@ -1,0 +1,17 @@
+site_name: Hacker Notebook
+site_url: https://hackernotebook.com
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - search.suggest
+    - search.highlight
+  plugins:
+    - search
+    - tags
