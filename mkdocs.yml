@@ -4,6 +4,7 @@ theme:
   name: material
   features:
     - navigation.instant
+    - navigation.instant.progress
     - navigation.instant.prefetch
     - navigation.tabs
     - navigation.tabs.sticky
@@ -15,3 +16,4 @@ theme:
   plugins:
     - search
     - tags
+    - offline
