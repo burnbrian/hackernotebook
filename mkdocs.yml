@@ -46,3 +46,5 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://fosstodon.org/@test
 copyright: Copyright &copy; 2023+ Hacker Notebook
+repo_url: https://github.com/burnbrian/hackernotebook
+edit_uri: edit/main/docs/
