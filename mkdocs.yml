@@ -2,8 +2,10 @@ site_name: Hacker Notebook
 site_url: https://hackernotebook.com
 theme:
   name: material
+  custom_dir: overrides
+  icon:
+    logo: fontawesome/solid/book-skull
   features:
-    - header.autohide
     - navigation.instant
     - navigation.instant.progress
     - navigation.instant.prefetch
@@ -16,35 +18,40 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
-    - announce.dismiss
     - toc.follow
     - toc.integrate
+    - announce.dismiss
   plugins:
     - search
     - tags
     - offline
-  palette: 
+  palette:
     # Palette toggle for light mode
     - scheme: default
+      primary: custom
+      accent: deep orange
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
-
     # Palette toggle for dark mode
     - scheme: slate
+      primary: custom
+      accent: deep orange
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+# socials
 extra:
   social:
-    - icon: fontawesome/brands/mastodon 
-      link: https://fosstodon.org/@test
     - icon: fontawesome/brands/github
-      link: https://fosstodon.org/@test
+      link: https://github.com/burnbrian
     - icon: fontawesome/brands/linkedin
-      link: https://fosstodon.org/@test
-    - icon: fontawesome/brands/discord
-      link: https://fosstodon.org/@test
+      link: https://linkedin.com/in/burnbrian
+# copyright
 copyright: Copyright &copy; 2023+ Hacker Notebook
+# github
 repo_url: https://github.com/burnbrian/hackernotebook
 edit_uri: edit/main/docs/
+# extra css
+extra_css:
+  - stylesheets/extra.css
